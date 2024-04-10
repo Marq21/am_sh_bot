@@ -1,9 +1,13 @@
+import sqlite3
 import webbrowser
 
 import telebot
 from telebot import types
 
 bot = telebot.TeleBot('6974044588:AAHE5FE7oDPob7pJ_49I4sWzhE8K-_5_SOc')
+
+login = ""
+password = ""
 
 
 @bot.message_handler(content_types=['photo'])
@@ -42,14 +46,61 @@ def site_handler(message):
 
 @bot.message_handler(commands=['start'])
 def main(message):
-    markup = types.ReplyKeyboardMarkup()
-    button1 = types.KeyboardButton('Поиск')
-    markup.row(button1)
-    button2 = types.KeyboardButton('Удалить')
-    button3 = types.KeyboardButton('Изменить')
-    markup.row(button2, button3)
-    bot.send_message(message.chat.id, 'You!', reply_markup=markup)
-    bot.register_next_step_handler(message, on_click)
+    con = sqlite3.connect('sq_db.sql')
+    cursor = con.cursor()
+
+    cursor.execute(
+        'CREATE TABLE IF NOT EXISTS users(id int auto_increment primary key, name varchar(100), pass varchar(50))')
+    con.commit()
+    cursor.close()
+    con.close()
+
+    bot.send_message(message.chat.id, 'Login')
+    bot.register_next_step_handler(message, user_name)
+
+
+def user_name(message):
+    global login
+    login = message.text.strip()
+    bot.send_message(message.chat.id, 'Password')
+    bot.register_next_step_handler(message, user_pass)
+
+
+def user_pass(message):
+    global password
+    password = message.text.strip()
+
+    con = sqlite3.connect('sq_db.sql')
+    cursor = con.cursor()
+
+    cursor.execute(
+        "INSERT INTO users(name, pass) VALUES('%s', '%s')" % (login, password))
+    con.commit()
+    cursor.close()
+    con.close()
+
+    markup = types.InlineKeyboardMarkup()
+    markup.add(types.InlineKeyboardButton('Список пользователей', callback_data='users'))
+
+    bot.send_message(message.chat.id, 'Success!', reply_markup=markup)
+
+
+@bot.callback_query_handler(func=lambda call: True)
+def user_list(call):
+    con = sqlite3.connect('sq_db.sql')
+    cursor = con.cursor()
+
+    cursor.execute(
+        "SELECT * FROM users")
+    users = cursor.fetchall()
+    info = ''
+    for el in users:
+        info += f'Имя: {el[1]}, пароль: {el[2]}\n'
+    con.commit()
+    cursor.close()
+    con.close()
+
+    bot.send_message(call.message.chat.id, info)
 
 
 def on_click(message):
