@@ -1,6 +1,8 @@
+import json
 import sqlite3
 import webbrowser
 
+import requests
 import telebot
 from telebot import types
 
@@ -8,6 +10,7 @@ bot = telebot.TeleBot('6974044588:AAHE5FE7oDPob7pJ_49I4sWzhE8K-_5_SOc')
 
 login = ""
 password = ""
+API_KEY = '7454ddf76d882614c5424f640009a0ff'
 
 
 @bot.message_handler(content_types=['photo'])
@@ -57,6 +60,17 @@ def main(message):
 
     bot.send_message(message.chat.id, 'Login')
     bot.register_next_step_handler(message, user_name)
+
+
+@bot.message_handler(content_types=['text'])
+def get_weather(message):
+    city = message.text.strip().lower()
+    result = requests.get(f'https://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_KEY}&units=metric')
+    if result.status_code == 200:
+        data = json.loads(result.text)
+        bot.reply_to(message, f'Погода в городе {city.capitalize()} сейчас: {data['main']['temp']}')
+    else:
+        bot.reply_to(message, f'Города {city.capitalize()} не существует')
 
 
 def user_name(message):
