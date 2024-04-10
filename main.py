@@ -120,7 +120,7 @@ def main_help(message):
 @bot.message_handler(commands=['show_message'])
 def main_show_message(message):
     bot.send_message(message.chat.id,
-                     f'{message.from_user.first_name} {message.from_user.last_name} хуёвый программист! :]')
+                     f'{message.from_user.first_name} {message.from_user.last_name} программист! :]')
 
 
 @bot.message_handler()
