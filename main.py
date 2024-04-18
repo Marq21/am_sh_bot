@@ -209,7 +209,6 @@ async def cmd_special_buttons(message: types.Message):
 
 
 # новый импорт
-from aiogram import F
 
 
 @dp.message(F.user_shared)
