@@ -1,9 +1,13 @@
 import asyncio
+import logging
 
 from aiogram import Bot, Dispatcher
 
+log = logging.getLogger(__name__)
+
 
 async def main():
+    log.info("Creating bot")
     bot = Bot(token="TOKEN")
     dp = Dispatcher()
 
@@ -15,4 +19,8 @@ async def main():
 
 
 if __name__ == "__main__":
+    logging.basicConfig(
+        level=logging.WARNING,
+        filename="logs.log"
+    )
     asyncio.run(main())

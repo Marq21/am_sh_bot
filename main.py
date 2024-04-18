@@ -13,6 +13,7 @@ from aiogram.utils.keyboard import ReplyKeyboardBuilder
 
 from config import BOT_TOKEN
 
+log = logging.getLogger(__name__)
 dp = Dispatcher()
 # Adding custom arguments in Dispatcher
 dp["started_at"] = datetime.now().strftime("%Y-%m-%d %H:%M")
@@ -228,6 +229,7 @@ async def on_user_shared(message: types.Message):
 
 
 async def main() -> None:
+    log.info("init bot")
     bot = Bot(token=BOT_TOKEN, default=DefaultBotProperties(parse_mode=ParseMode.HTML))
     # add kwargs
     await dp.start_polling(bot, mylist=[1, 2, 3])
