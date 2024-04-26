@@ -4,13 +4,15 @@ from aiogram.types import Message
 
 import kb
 import text
+from utils import handle_json
 
 router = Router()
 
 
 @router.message(CommandStart())
 async def start_handler(msg: Message):
-    await msg.answer(text.greet.format(name=msg.from_user.full_name), reply_markup=kb.menu)
+    data = handle_json("items.json")
+    await msg.answer(data)
 
 
 @router.message(F.text == "Меню")
