@@ -10,7 +10,5 @@ def handle_json(json_data):
 def __format_json_for_tg_message(data: dict) -> str:
     result = str()
     for elem in data[:10]:
-        print(elem['href'])
-        result += f'{elem['href']}\n{elem['name']}\n{elem['price']}\n{elem['description']}\n\n'
-    print(result)
+        result += f'<a href="{elem['href']}">{elem['name']}</a>\n{elem['price']}\n{elem['description']}\n\n'
     return result
