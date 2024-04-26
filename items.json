@@ -48,12 +48,6 @@
         "price": "1 620 000 ₽"
     },
     {
-        "name": "1-к. квартира, 41,7 м², 8/9 эт.",
-        "href": "https://www.avito.ru/rostov-na-donu/kvartiry/1-k._kvartira_417_m_89_et._4273804147",
-        "description": "Продаю квартиру, собственник! Документы впорядке. ...",
-        "price": "1 650 000 ₽"
-    },
-    {
         "name": "1-к. квартира, 17 м², 1/1 эт.",
         "href": "https://www.avito.ru/rostov-na-donu/kvartiry/1-k._kvartira_17_m_11_et._4274523130",
         "description": "Продаю изолированную квартиру (на земле) Сельмаш/П...",
@@ -297,6 +291,12 @@
         "name": "1-к. квартира, 13,1 м², 3/5 эт.",
         "href": "https://www.avito.ru/rostov-na-donu/kvartiry/1-k._kvartira_131_m_35_et._3950384766",
         "description": "Каталожный номер — F041102. Представляю вашему вни...",
+        "price": "1 950 000 ₽"
+    },
+    {
+        "name": "Квартира-студия, 19 м², 3/5 эт.",
+        "href": "https://www.avito.ru/rostov-na-donu/kvartiry/kvartira-studiya_19_m_35_et._3916283639",
+        "description": "Продаю студию Нахичевань Черевичкина 91. 3/5 19/14...",
         "price": "1 950 000 ₽"
     }
 ]
