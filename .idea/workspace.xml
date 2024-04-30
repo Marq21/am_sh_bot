@@ -6,7 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="381135fc-c76d-472c-842b-22372b6378f5" name="Changes" comment="add token by command line">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handlers.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/items.json" beforeDir="false" afterPath="$PROJECT_DIR$/items.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kb.py" beforeDir="false" afterPath="$PROJECT_DIR$/kb.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/parser.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

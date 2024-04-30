@@ -42,14 +42,30 @@ async def parse():
     main()
 
 
-def get_category_text():
+def get_category_text(url: str):
     options = uc.ChromeOptions()
     options.add_argument("--headless")
     driver = uc.Chrome(options=options, use_subprocess=False)
     driver.implicitly_wait(10)
-    driver.get("https://www.avito.ru/")
+    driver.get(url)
     elements = driver.find_elements(By.CSS_SELECTOR, '[data-marker*="visual-rubricator/block-"]')
-    return elements
+    save_category_data(elements)
+    list_text_elements = [element.text for element in elements]
+    driver.close()
+    return list_text_elements
+
+
+def save_category_data(category_list):
+    for element in category_list:
+        name = element.text
+        href = element.get_attribute('href')
+        data = {
+            "name": name,
+            "href": href,
+        }
+        if name:
+            data_list.append(data)
+    save_data(data_list)
 
 
 if __name__ == '__main__':
