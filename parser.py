@@ -42,5 +42,15 @@ async def parse():
     main()
 
 
+def get_category_text():
+    options = uc.ChromeOptions()
+    options.add_argument("--headless")
+    driver = uc.Chrome(options=options, use_subprocess=False)
+    driver.implicitly_wait(10)
+    driver.get("https://www.avito.ru/")
+    elements = driver.find_elements(By.CSS_SELECTOR, '[data-marker*="visual-rubricator/block-"]')
+    return elements
+
+
 if __name__ == '__main__':
     main()
