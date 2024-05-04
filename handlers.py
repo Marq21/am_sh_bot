@@ -8,6 +8,6 @@ router = Router()
 
 @router.message(CommandStart())
 async def start_handler(msg: Message):
-    await msg.answer("Начинаю поиск квартир")
+    await msg.answer("Начинаю поиск")
     data = handle_json("items.json")
     await msg.answer(data)
