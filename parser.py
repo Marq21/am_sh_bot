@@ -8,7 +8,6 @@ data_list = []
 
 
 def main():
-    print("start parsing")
     driver = uc.Chrome(headless=True, use_subprocess=False)
     driver.get(
         "https://www.avito.ru/rostov-na-donu/kvartiry/prodam-ASgBAgICAUSSA8YQ?cd=1&context"

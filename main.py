@@ -14,7 +14,7 @@ from parser import parse
 
 async def main():
     scheduler = AsyncIOScheduler(timezone="Europe/Moscow")
-    scheduler.add_job(parse, 'interval', seconds=60)
+    scheduler.add_job(parse, 'interval', seconds=300)
     scheduler.start()
     bot = Bot(config.BOT_TOKEN, default=DefaultBotProperties(parse_mode=ParseMode.HTML))
     dp = Dispatcher(storage=MemoryStorage())
