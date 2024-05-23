@@ -1,9 +1,21 @@
 [
     {
+        "name": "1-к. квартира, 16 м², 2/2 эт.",
+        "href": "https://www.avito.ru/rostov-na-donu/kvartiry/1-k._kvartira_16_m_22_et._3811480721",
+        "description": "Срочно! Уникальное Предложение! Продается однокомн...",
+        "price": "880 000 ₽"
+    },
+    {
         "name": "Квартира-студия, 16 м², 2/2 эт.",
         "href": "https://www.avito.ru/rostov-na-donu/kvartiry/kvartira-studiya_16_m_22_et._3180407690",
         "description": "Срочно! Студия-комната, фото соответствует. Требуе...",
         "price": "880 000 ₽"
+    },
+    {
+        "name": "Квартира-студия, 17,3 м², 9/9 эт.",
+        "href": "https://www.avito.ru/rostov-na-donu/kvartiry/kvartira-studiya_173_m_99_et._3959134522",
+        "description": "Продается однокомнатная квартира на девятом этаже ...",
+        "price": "1 000 000 ₽"
     },
     {
         "name": "1-к. квартира, 27 м², 2/2 эт.",
@@ -12,16 +24,10 @@
         "price": "1 000 000 ₽"
     },
     {
-        "name": "Квартира-студия, 14 м², 1/1 эт.",
-        "href": "https://www.avito.ru/rostov-na-donu/kvartiry/kvartira-studiya_14_m_11_et._3490732168",
-        "description": "Продается уютная студия в отличном месте. Удобная ...",
-        "price": "1 050 000 ₽"
-    },
-    {
-        "name": "Квартира-студия, 17 м², 2/5 эт.",
-        "href": "https://www.avito.ru/rostov-na-donu/kvartiry/kvartira-studiya_17_m_25_et._3901122615",
-        "description": "Продаётся квартира под ремонт. В квартире есть вод...",
-        "price": "1 250 000 ₽"
+        "name": "1-к. квартира, 13,1 м², 5/5 эт.",
+        "href": "https://www.avito.ru/rostov-na-donu/kvartiry/1-k._kvartira_131_m_55_et._4013606438",
+        "description": "Каталожный номер — F061827. Продаётся 1-комнатная ...",
+        "price": "1 490 000 ₽"
     },
     {
         "name": "Квартира-студия, 14 м², 1/2 эт.",
@@ -30,16 +36,52 @@
         "price": "1 500 000 ₽"
     },
     {
-        "name": "2-к. квартира, 36 м², 1/1 эт.",
-        "href": "https://www.avito.ru/rostov-na-donu/kvartiry/2-k._kvartira_36_m_11_et._4011704274",
-        "description": "Предлагаем квартиру на земле в закрытом дворе. Две...",
+        "name": "Квартира-студия, 20 м², 1/2 эт.",
+        "href": "https://www.avito.ru/rostov-na-donu/kvartiry/kvartira-studiya_20_m_12_et._3269877774",
+        "description": "Показываем по средам в 14:00 и субботам в 12:00. Н...",
         "price": "1 550 000 ₽"
     },
     {
-        "name": "1-к. квартира, 17 м², 1/2 эт.",
-        "href": "https://www.avito.ru/rostov-na-donu/kvartiry/1-k._kvartira_17_m_12_et._3765431276",
-        "description": "Номер объекта в базе:64318079. Агент 604. Шикарное...",
+        "name": "2-к. квартира, 36 м², 1/1 эт.",
+        "href": "https://www.avito.ru/rostov-na-donu/kvartiry/2-k._kvartira_36_m_11_et._4011704274",
+        "description": "Предлагаем квартиру на земле в закрытом дворе. Две...",
         "price": "1 580 000 ₽"
+    },
+    {
+        "name": "Квартира-студия, 35,9 м², 1/4 эт.",
+        "href": "https://www.avito.ru/rostov-na-donu/kvartiry/kvartira-studiya_359_m_14_et._4140184715",
+        "description": "Высокий цоколь, в основном такое в этих домах испо...",
+        "price": "1 590 000 ₽"
+    },
+    {
+        "name": "1-к. квартира, 15 м², 4/5 эт.",
+        "href": "https://www.avito.ru/rostov-na-donu/kvartiry/1-k._kvartira_15_m_45_et._3743386767",
+        "description": "Однокомнатна квартира в продаже! Продаëтся одноком...",
+        "price": "1 593 500 ₽"
+    },
+    {
+        "name": "2-к. квартира, 22 м², 1/2 эт.",
+        "href": "https://www.avito.ru/rostov-na-donu/kvartiry/2-k._kvartira_22_m_12_et._3964308488",
+        "description": "Продаю светлую, уютную 2-комнатную квартиру в цент...",
+        "price": "1 600 000 ₽"
+    },
+    {
+        "name": "1-к. квартира, 15 м², 2/5 эт.",
+        "href": "https://www.avito.ru/rostov-na-donu/kvartiry/1-k._kvartira_15_m_25_et._3732972915",
+        "description": "Экслюзив! Продаю 1 комнатную квартиру малогабаритн...",
+        "price": "1 600 000 ₽"
+    },
+    {
+        "name": "2-к. квартира, 21,2 м², 1/2 эт.",
+        "href": "https://www.avito.ru/rostov-na-donu/kvartiry/2-k._kvartira_212_m_12_et._3931856194",
+        "description": "Продаётся двухкомнатная квартира в 5 минутах езды ...",
+        "price": "1 600 000 ₽"
+    },
+    {
+        "name": "1-к. квартира, 14 м², 2/5 эт.",
+        "href": "https://www.avito.ru/rostov-na-donu/kvartiry/1-k._kvartira_14_m_25_et._3796710016",
+        "description": "Экслюзив! Продаю 1 комнатную квартиру малогабаритн...",
+        "price": "1 600 000 ₽"
     },
     {
         "name": "1-к. квартира, 17 м², 1/1 эт.",
@@ -48,27 +90,9 @@
         "price": "1 600 000 ₽"
     },
     {
-        "name": "1-к. квартира, 13,1 м², 5/5 эт.",
-        "href": "https://www.avito.ru/rostov-na-donu/kvartiry/1-k._kvartira_131_m_55_et._3854282079",
-        "description": "Каталожный номер — F061827. Продается 1-ая квартир...",
-        "price": "1 600 000 ₽"
-    },
-    {
-        "name": "1-к. квартира, 13 м², 2/2 эт.",
-        "href": "https://www.avito.ru/rostov-na-donu/kvartiry/1-k._kvartira_13_m_22_et._3572719767",
-        "description": "Продается 1-комнатная квартира в центре Нахичевани...",
-        "price": "1 620 000 ₽"
-    },
-    {
-        "name": "Квартира-студия, 20 м², 1/2 эт.",
-        "href": "https://www.avito.ru/rostov-na-donu/kvartiry/kvartira-studiya_20_m_12_et._3269877774",
-        "description": "Показываем по средам в 14:00. Необходимо сделать к...",
-        "price": "1 650 000 ₽"
-    },
-    {
-        "name": "1-к. квартира, 26,1 м², 2/2 эт.",
-        "href": "https://www.avito.ru/rostov-na-donu/kvartiry/1-k._kvartira_261_m_22_et._3630181991",
-        "description": "Каталожный номер — F022153. Ростов-на-Дону. Западн...",
+        "name": "1-к. квартира, 25 м², 1/2 эт.",
+        "href": "https://www.avito.ru/rostov-na-donu/kvartiry/1-k._kvartira_25_m_12_et._2393676306",
+        "description": "Продаю однокомнатную квартиру в центре города. Вся...",
         "price": "1 650 000 ₽"
     },
     {
@@ -78,33 +102,39 @@
         "price": "1 650 000 ₽"
     },
     {
-        "name": "1-к. квартира, 16,8 м², 4/5 эт.",
-        "href": "https://www.avito.ru/rostov-na-donu/kvartiry/1-k._kvartira_168_m_45_et._3767513926",
-        "description": "В продаже не большая, но уютная квартира в районе ...",
-        "price": "1 650 000 ₽"
-    },
-    {
-        "name": "Квартира-студия, 35,9 м², 1/4 эт.",
-        "href": "https://www.avito.ru/rostov-na-donu/kvartiry/kvartira-studiya_359_m_14_et._4140184715",
-        "description": "Высокий цоколь, в основном такое в этих домах испо...",
-        "price": "1 690 000 ₽"
-    },
-    {
         "name": "Квартира-студия, 25,5 м², 2/2 эт.",
         "href": "https://www.avito.ru/rostov-na-donu/kvartiry/kvartira-studiya_255_m_22_et._4241611778",
         "description": "Продаю свою квартиру-студию по цене комнаты в комм...",
         "price": "1 690 000 ₽"
     },
     {
-        "name": "1-к. квартира, 18 м², 5/5 эт.",
-        "href": "https://www.avito.ru/rostov-na-donu/kvartiry/1-k._kvartira_18_m_55_et._3918862874",
-        "description": "Арт. 64128339 Статус — Квартира! Продаю уютную мал...",
+        "name": "1-к. квартира, 21,7 м², 1/2 эт.",
+        "href": "https://www.avito.ru/rostov-na-donu/kvartiry/1-k._kvartira_217_m_12_et._4070255922",
+        "description": "Без Комиссии для покупателей. С агентствами сотруд...",
         "price": "1 699 000 ₽"
     },
     {
-        "name": "1-к. квартира, 14 м², 2/5 эт.",
-        "href": "https://www.avito.ru/rostov-na-donu/kvartiry/1-k._kvartira_14_m_25_et._3796710016",
-        "description": "Экслюзив! Продаю 1 комнатную квартиру малогабаритн...",
+        "name": "2-к. квартира, 22,2 м², 1/2 эт.",
+        "href": "https://www.avito.ru/rostov-na-donu/kvartiry/2-k._kvartira_222_m_12_et._4045782872",
+        "description": "Малогабаритная двушка в здании бывшего общежития с...",
+        "price": "1 700 000 ₽"
+    },
+    {
+        "name": "1-к. квартира, 35 м², 2/2 эт.",
+        "href": "https://www.avito.ru/rostov-na-donu/kvartiry/1-k._kvartira_35_m_22_et._3838249807",
+        "description": "Продается просторная, очень светлая квартира. В кв...",
+        "price": "1 700 000 ₽"
+    },
+    {
+        "name": "Апартаменты-студия, 12 м², 5/5 эт.",
+        "href": "https://www.avito.ru/rostov-na-donu/kvartiry/apartamenty-studiya_12_m_55_et._3736962032",
+        "description": "Продаю изолированную комнату в общежитии ( своя ку...",
+        "price": "1 700 000 ₽"
+    },
+    {
+        "name": "2-к. квартира, 39 м², 2/2 эт.",
+        "href": "https://www.avito.ru/rostov-na-donu/kvartiry/2-k._kvartira_39_m_22_et._3965835998",
+        "description": "В центре города, в тихом, уютном дворике, на 2м эт...",
         "price": "1 700 000 ₽"
     },
     {
@@ -114,39 +144,45 @@
         "price": "1 700 000 ₽"
     },
     {
-        "name": "2-к. квартира, 20,3 м², 1/2 эт.",
-        "href": "https://www.avito.ru/rostov-na-donu/kvartiry/2-k._kvartira_203_m_12_et._4076261837",
-        "description": "Предложение в центре города, Локация супер. Театра...",
-        "price": "1 700 000 ₽"
+        "name": "Квартира-студия, 21 м², 3/4 эт.",
+        "href": "https://www.avito.ru/rostov-na-donu/kvartiry/kvartira-studiya_21_m_34_et._3887018949",
+        "description": "Арт. 63081648 Срочно! Отличная квартира-студия для...",
+        "price": "1 720 000 ₽"
     },
     {
-        "name": "1-к. квартира, 24 м², 1/3 эт.",
-        "href": "https://www.avito.ru/rostov-na-donu/kvartiry/1-k._kvartira_24_m_13_et._1792464695",
-        "description": "Квартира в цокольном этаже здания! Окон выходящих ...",
-        "price": "1 700 000 ₽"
+        "name": "1-к. квартира, 28,3 м², 1/2 эт.",
+        "href": "https://www.avito.ru/rostov-na-donu/kvartiry/1-k._kvartira_283_m_12_et._4108472215",
+        "description": "Предлагаем квартиру (не доля) в центре города/Теат...",
+        "price": "1 750 000 ₽"
     },
     {
-        "name": "1-к. квартира, 15 м², 4/5 эт.",
-        "href": "https://www.avito.ru/rostov-na-donu/kvartiry/1-k._kvartira_15_m_45_et._3743386767",
-        "description": "Продаëтся однокомнатная квартира. Эксклюзивное пре...",
-        "price": "1 700 000 ₽"
+        "name": "1-к. квартира, 17 м², 2/9 эт.",
+        "href": "https://www.avito.ru/rostov-na-donu/kvartiry/1-k._kvartira_17_m_29_et._3926862425",
+        "description": "Продается 1-комнатная квартира общей площадью 17 м...",
+        "price": "1 750 000 ₽"
     },
     {
         "name": "Квартира-студия, 17 м², 3/4 эт.",
         "href": "https://www.avito.ru/rostov-na-donu/kvartiry/kvartira-studiya_17_m_34_et._3919010311",
         "description": "Арт. 64813080 Срочная продажа! Отличное предложени...",
-        "price": "1 720 000 ₽"
-    },
-    {
-        "name": "1-к. квартира, 20 м², 8/10 эт.",
-        "href": "https://www.avito.ru/rostov-na-donu/kvartiry/1-k._kvartira_20_m_810_et._3645492760",
-        "description": "Продаётся квартира в отличном состоянии после капи...",
         "price": "1 750 000 ₽"
     },
     {
-        "name": "1-к. квартира, 15 м², 2/5 эт.",
-        "href": "https://www.avito.ru/rostov-na-donu/kvartiry/1-k._kvartira_15_m_25_et._3732972915",
-        "description": "Экслюзив! Продаю 1 комнатную квартиру малогабаритн...",
+        "name": "1-к. квартира, 26 м², 1/5 эт.",
+        "href": "https://www.avito.ru/rostov-na-donu/kvartiry/1-k._kvartira_26_m_15_et._3758825203",
+        "description": "Арт. 60372619 Срочная продажа, квартира общей площ...",
+        "price": "1 750 000 ₽"
+    },
+    {
+        "name": "Квартира-студия, 20 м², 2/6 эт.",
+        "href": "https://www.avito.ru/rostov-na-donu/kvartiry/kvartira-studiya_20_m_26_et._3797464500",
+        "description": "При звонке просим указать номер лота: 60503847. Ре...",
+        "price": "1 750 000 ₽"
+    },
+    {
+        "name": "2-к. квартира, 20,3 м², 1/2 эт.",
+        "href": "https://www.avito.ru/rostov-na-donu/kvartiry/2-k._kvartira_203_m_12_et._4076261837",
+        "description": "Предложение в центре города, Локация супер. Театра...",
         "price": "1 750 000 ₽"
     },
     {
@@ -156,27 +192,9 @@
         "price": "1 760 000 ₽"
     },
     {
-        "name": "Квартира-студия, 21 м², 1/4 эт.",
-        "href": "https://www.avito.ru/rostov-na-donu/kvartiry/kvartira-studiya_21_m_14_et._3694655708",
-        "description": "Арт. 58939243 Срочная продажа квартиры-студии в оч...",
-        "price": "1 790 000 ₽"
-    },
-    {
-        "name": "1-к. квартира, 28,3 м², 1/2 эт.",
-        "href": "https://www.avito.ru/rostov-na-donu/kvartiry/1-k._kvartira_283_m_12_et._4108472215",
-        "description": "Предлагаем квартиру (не доля) в центре города/Теат...",
-        "price": "1 790 000 ₽"
-    },
-    {
-        "name": "Квартира-студия, 21 м², 3/4 эт.",
-        "href": "https://www.avito.ru/rostov-na-donu/kvartiry/kvartira-studiya_21_m_34_et._3887018949",
-        "description": "Арт. 63081648 Срочно! Отличная квартира-студия для...",
-        "price": "1 790 000 ₽"
-    },
-    {
-        "name": "1-к. квартира, 15 м², 1/1 эт.",
-        "href": "https://www.avito.ru/rostov-na-donu/kvartiry/1-k._kvartira_15_m_11_et._3807172984",
-        "description": "Продается ухоженная 1-квартира в кирпичном доме ря...",
+        "name": "1-к. квартира, 17,7 м², 2/5 эт.",
+        "href": "https://www.avito.ru/rostov-na-donu/kvartiry/1-k._kvartira_177_m_25_et._3958984335",
+        "description": "В продаже комната в общежитии со своим санузлом и ...",
         "price": "1 800 000 ₽"
     },
     {
@@ -187,8 +205,26 @@
     },
     {
         "name": "Квартира-студия, 13 м², 2/2 эт.",
+        "href": "https://www.avito.ru/rostov-na-donu/kvartiry/kvartira-studiya_13_m_22_et._3982062016",
+        "description": "Каталожный номер — F063950. Уютная квартира в цент...",
+        "price": "1 800 000 ₽"
+    },
+    {
+        "name": "1-к. квартира, 17 м², 7/9 эт.",
+        "href": "https://www.avito.ru/rostov-na-donu/kvartiry/1-k._kvartira_17_m_79_et._3732832024",
+        "description": "В продаже 1 комнатная квартира. Железная входная д...",
+        "price": "1 800 000 ₽"
+    },
+    {
+        "name": "Квартира-студия, 13 м², 2/2 эт.",
         "href": "https://www.avito.ru/rostov-na-donu/kvartiry/kvartira-studiya_13_m_22_et._3923714209",
         "description": "Я хозяйка, прямая продажа через нотариуса. В кварт...",
+        "price": "1 800 000 ₽"
+    },
+    {
+        "name": "1-к. квартира, 18 м², 4/5 эт.",
+        "href": "https://www.avito.ru/rostov-na-donu/kvartiry/1-k._kvartira_18_m_45_et._3797286259",
+        "description": "Срочная продажа! В продаже уютная изолированная 1 ...",
         "price": "1 800 000 ₽"
     },
     {
@@ -204,16 +240,10 @@
         "price": "1 800 000 ₽"
     },
     {
-        "name": "1-к. квартира, 35 м², 2/2 эт.",
-        "href": "https://www.avito.ru/rostov-na-donu/kvartiry/1-k._kvartira_35_m_22_et._3838249807",
-        "description": "Продается просторная, очень светлая квартира. В кв...",
-        "price": "1 800 000 ₽"
-    },
-    {
-        "name": "1-к. квартира, 17 м², 7/9 эт.",
-        "href": "https://www.avito.ru/rostov-na-donu/kvartiry/1-k._kvartira_17_m_79_et._3732832024",
-        "description": "В продаже 1 комнатная квартира. Железная входная д...",
-        "price": "1 800 000 ₽"
+        "name": "1-к. квартира, 15 м², 1/1 эт.",
+        "href": "https://www.avito.ru/rostov-na-donu/kvartiry/1-k._kvartira_15_m_11_et._3807172984",
+        "description": "Продается интересная 1-квартира в кирпичном доме р...",
+        "price": "1 825 000 ₽"
     },
     {
         "name": "Квартира-студия, 16 м², 7/15 эт.",
@@ -222,27 +252,15 @@
         "price": "1 830 000 ₽"
     },
     {
-        "name": "1-к. квартира, 26 м², 1/5 эт.",
-        "href": "https://www.avito.ru/rostov-na-donu/kvartiry/1-k._kvartira_26_m_15_et._3758825203",
-        "description": "Арт. 60372619 Срочная продажа, квартира общей площ...",
+        "name": "1-к. апартаменты, 37 м², 1/4 эт.",
+        "href": "https://www.avito.ru/rostov-na-donu/kvartiry/1-k._apartamenty_37_m_14_et._3894240761",
+        "description": "Реальный Объект! Фото Соответствуют! Цена ниже рын...",
         "price": "1 850 000 ₽"
     },
     {
-        "name": "1-к. квартира, 18 м², 4/5 эт.",
-        "href": "https://www.avito.ru/rostov-na-donu/kvartiry/1-k._kvartira_18_m_45_et._3797286259",
-        "description": "Срочная продажа! В продаже уютная изолированная 1 ...",
-        "price": "1 850 000 ₽"
-    },
-    {
-        "name": "Квартира-студия, 18,5 м², 5/5 эт.",
-        "href": "https://www.avito.ru/rostov-na-donu/kvartiry/kvartira-studiya_185_m_55_et._2257837094",
-        "description": "Продажа квартиры. Натяжной потолок, м/ п окно, пол...",
-        "price": "1 850 000 ₽"
-    },
-    {
-        "name": "Квартира-студия, 15 м², 3/5 эт.",
-        "href": "https://www.avito.ru/rostov-na-donu/kvartiry/kvartira-studiya_15_m_35_et._3772789132",
-        "description": "Продаётся изолированная квартира-студия 15м. Кв., ...",
+        "name": "1-к. квартира, 18 м², 3/5 эт.",
+        "href": "https://www.avito.ru/rostov-na-donu/kvartiry/1-k._kvartira_18_m_35_et._3893739657",
+        "description": "— Продается Квартира. — Отличное предложение. — До...",
         "price": "1 850 000 ₽"
     },
     {
@@ -258,39 +276,27 @@
         "price": "1 880 000 ₽"
     },
     {
-        "name": "1-к. квартира, 16 м², 1/5 эт.",
-        "href": "https://www.avito.ru/rostov-na-donu/kvartiry/1-k._kvartira_16_m_15_et._3956427042",
-        "description": "Продаю 1 ком кв в центре города. Квартира оснащена...",
-        "price": "1 899 000 ₽"
+        "name": "Квартира-студия, 18 м², 1/1 эт.",
+        "href": "https://www.avito.ru/rostov-na-donu/kvartiry/kvartira-studiya_18_m_11_et._3829318688",
+        "description": "Продается студия 18 кв. М. Район Александровка, ра...",
+        "price": "1 890 000 ₽"
     },
     {
-        "name": "1-к. квартира, 33 м², 2/9 эт.",
-        "href": "https://www.avito.ru/rostov-na-donu/kvartiry/1-k._kvartira_33_m_29_et._3907263738",
-        "description": "Квартира в хорошем доме, с ремонтом. Срочная прода...",
-        "price": "1 900 000 ₽"
+        "name": "Квартира-студия, 18,5 м², 5/5 эт.",
+        "href": "https://www.avito.ru/rostov-na-donu/kvartiry/kvartira-studiya_185_m_55_et._2257837094",
+        "description": "Продажа квартиры. Натяжной потолок, м/ п окно, пол...",
+        "price": "1 890 000 ₽"
     },
     {
-        "name": "1-к. квартира, 30 м², 3/5 эт.",
-        "href": "https://www.avito.ru/rostov-na-donu/kvartiry/1-k._kvartira_30_m_35_et._3754632800",
-        "description": "Срoчнo! Просмотр с мая! Докумeнты готовы к продaжe...",
-        "price": "1 900 000 ₽"
+        "name": "1-к. квартира, 35,5 м², 1/4 эт.",
+        "href": "https://www.avito.ru/rostov-na-donu/kvartiry/1-k._kvartira_355_m_14_et._3791597653",
+        "description": "Арт. 61479470 Продам однокомнатную квартиру, с хор...",
+        "price": "1 890 000 ₽"
     },
     {
-        "name": "1-к. квартира, 19 м², 2/5 эт.",
-        "href": "https://www.avito.ru/rostov-na-donu/kvartiry/1-k._kvartira_19_m_25_et._3727361102",
-        "description": "Арт. 59737262 Остаётся вся мебель и бытовая техник...",
-        "price": "1 900 000 ₽"
-    },
-    {
-        "name": "Квартира-студия, 13 м², 3/5 эт.",
-        "href": "https://www.avito.ru/rostov-na-donu/kvartiry/kvartira-studiya_13_m_35_et._3291072789",
-        "description": "Продается студия в бывшем общежитии. В квартире ес...",
-        "price": "1 900 000 ₽"
-    },
-    {
-        "name": "Квартира-студия, 22 м², 4/5 эт.",
-        "href": "https://www.avito.ru/rostov-na-donu/kvartiry/kvartira-studiya_22_m_45_et._3860576347",
-        "description": "Срочная продажа! Продаётся квартира-студия в доме ...",
-        "price": "1 900 000 ₽"
+        "name": "1-к. квартира, 20 м², 4/5 эт.",
+        "href": "https://www.avito.ru/rostov-na-donu/kvartiry/1-k._kvartira_20_m_45_et._3893802253",
+        "description": "Продается квартира на Нансена. Квартира готова для...",
+        "price": "1 890 000 ₽"
     }
 ]

@@ -4,7 +4,8 @@ from aiogram.fsm.context import FSMContext
 from aiogram.fsm.state import StatesGroup, State
 from aiogram.types import Message
 
-from utils import handle_json
+import database.requests as rq
+from utils import handle_json, validate_user_filter_href
 
 router = Router()
 
@@ -29,6 +30,12 @@ async def get_user_url(msg: Message, state: FSMContext):
 @router.message(UrlState.url)
 async def set_user_url(msg: Message, state: FSMContext):
     await state.update_data(url=msg.text)
-    user_url = await state.get_data()
-    await msg.answer(f"URL: {user_url['url']}")
+    state_data = await state.get_data()
+    await msg.answer(f"URL: {state_data['url']}\n {validate_user_filter_href(state_data['url'])}")
+    if validate_user_filter_href(state_data['url']):
+        await rq.set_user(msg.from_user.id, state_data['url'])
+        await msg.answer("Успешно сохранил данные в бд")
+    else:
+        await msg.answer("Ошибка валидации ссылки, введите верную ссылку с сайта www.avito.ru!")
+        await msg.answer("Введите или нажмите на комманду '/find', чтобы ввести ссылку заново")
     await state.clear()
