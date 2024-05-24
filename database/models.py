@@ -3,7 +3,7 @@ from typing import Any
 
 from sqlalchemy import BigInteger, String, ForeignKey
 from sqlalchemy.ext.asyncio import AsyncAttrs, async_sessionmaker, create_async_engine
-from sqlalchemy.orm import DeclarativeBase, mapped_column, Mapped, MappedColumn
+from sqlalchemy.orm import DeclarativeBase, mapped_column, Mapped, MappedColumn, relationship
 
 engine = create_async_engine(url='sqlite+aiosqlite:///db.sqlite3')
 
