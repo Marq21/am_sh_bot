@@ -1,41 +1,38 @@
+import asyncio
 import json
 
-import undetected_chromedriver as uc
-from selenium.common import NoSuchElementException
-from selenium.webdriver.common.by import By
+import httpx
+from bs4 import BeautifulSoup
 
-data_list = []
+data = {}
 
 
-def main():
-    driver = uc.Chrome(headless=True, use_subprocess=False)
-    driver.get(
-        "https://www.avito.ru/rostov-na-donu/kvartiry/prodam-ASgBAgICAUSSA8YQ?cd=1&context"
-        "=H4sIAAAAAAAA_0q0MrSqLraysFJKK8rPDUhMT1WyLrYyt1JKTixJzMlPV7KuBQQAAP__dhSE3CMAAAA&f=ASgBAgICAkSSA8YQjt4OAg&s=1")
-    elements = driver.find_elements(By.CSS_SELECTOR, '[data-marker="item"]')
+async def main():
+    async with httpx.AsyncClient() as client:
+        xml_response = await client.get('https://www.vedomosti.ru/rss/news.xml')
+        soup = BeautifulSoup(xml_response.text, 'xml')
 
-    for elem in elements:
-        try:
-            name = elem.find_element(By.CSS_SELECTOR, '[itemprop="name"]').text
-            href = elem.find_element(By.CSS_SELECTOR, '[itemprop="url"]').get_attribute("href")
-            description = elem.find_element(By.CSS_SELECTOR, '[class*="iva-item-descriptionStep"]').text[:50] + "..."
-            price = elem.find_element(By.CSS_SELECTOR, '[data-marker="item-price"]').text
-            data = {
-                "name": name,
-                "href": href,
-                "description": description,
-                "price": price,
+        items = soup.find_all('item')
+        for item in items:
+            category = item.find('category').text
+            title = item.find('title').text
+            link = item.find('link').text
+            pub_date = item.find('pubDate').text
+            article_data = {
+                'title': title,
+                'link': link,
+                'pub_date': pub_date,
             }
-            data_list.append(data)
-        except NoSuchElementException as nse:
-            print("Элемент отсутствует", nse.msg)
-    save_data(data_list)
-    driver.close()
+            if data.get(category):
+                data[category].append(article_data)
+            else:
+                data[category] = [article_data]
+    save_data(data)
 
 
-def save_data(data: list):
+def save_data(dict_data: dict):
     with open("items.json", "w", encoding='utf-8') as f:
-        json.dump(data, f, ensure_ascii=False, indent=4)
+        json.dump(dict_data, f, ensure_ascii=False, indent=4)
 
 
 def parse():
@@ -43,4 +40,4 @@ def parse():
 
 
 if __name__ == '__main__':
-    main()
+    asyncio.run(main())

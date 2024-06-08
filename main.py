@@ -8,13 +8,11 @@ from aiogram.fsm.storage.memory import MemoryStorage
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 
 import config
-from database.models import async_main
 from handlers import router
 from parser import parse
 
 
 async def main():
-    await async_main()
     scheduler = AsyncIOScheduler(timezone="Europe/Moscow")
     scheduler.add_job(parse, 'interval', seconds=300)
     scheduler.start()
