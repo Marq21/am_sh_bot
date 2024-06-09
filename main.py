@@ -8,13 +8,14 @@ from aiogram.fsm.storage.memory import MemoryStorage
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 
 import config
-from handlers import router
+from handlers import router, check
 from parser import parse
 
 
 async def main():
     scheduler = AsyncIOScheduler(timezone="Europe/Moscow")
-    scheduler.add_job(parse, 'interval', seconds=300)
+    scheduler.add_job(parse, 'interval', minutes=120)
+    scheduler.add_job(check, 'interval', minutes=120)
     scheduler.start()
     bot = Bot(config.BOT_TOKEN, default=DefaultBotProperties(parse_mode=ParseMode.HTML))
     dp = Dispatcher(storage=MemoryStorage())

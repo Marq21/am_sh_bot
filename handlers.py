@@ -18,7 +18,7 @@ async def start_handler(msg: Message):
 
 
 @router.message(Command('check'))
-async def get_user_url(msg: Message):
+async def check(msg: Message):
     data = await handle_json("items.json")
     for category in data:
         await msg.answer(f'<b>{category}</b>:\n\n{format_news_category(data[category])}')
