@@ -1,14 +1,38 @@
 {
+    "Политика": [
+        {
+            "title": "Лавров: Запад услышал и понял сигнал Путина на тему поставок оружия Украине",
+            "link": "https://www.vedomosti.ru/politics/news/2024/06/09/1042756-zapad-uslishal",
+            "pub_date": "2024-06-09 15:29:16+03:00"
+        },
+        {
+            "title": "Отбор на участие в выборах президента Ирана прошли шесть кандидатов",
+            "link": "https://www.vedomosti.ru/politics/news/2024/06/09/1042757-otbor-proshli-shest",
+            "pub_date": "2024-06-09 15:26:17+03:00"
+        },
+        {
+            "title": "Азербайджан не признает выборы в Южной Осетии",
+            "link": "https://www.vedomosti.ru/politics/news/2024/06/09/1042754-azerbaidzhan-ne-priznaet",
+            "pub_date": "2024-06-09 15:11:53+03:00"
+        }
+    ],
+    "Политика / Власть": [
+        {
+            "title": "Зарубин: Путин встретится с участниками программы «Время героев»",
+            "link": "https://www.vedomosti.ru/politics/news/2024/06/09/1042755-putin-vstretitsya",
+            "pub_date": "2024-06-09 15:04:21+03:00"
+        },
+        {
+            "title": "Песков: Запад переводит СМИ в подцензурное состояние",
+            "link": "https://www.vedomosti.ru/politics/news/2024/06/09/1042751-peskov-zapad",
+            "pub_date": "2024-06-09 14:30:58+03:00"
+        }
+    ],
     "Политика / Международные отношения": [
         {
             "title": "Глава Гагаузии Гуцул прибыла в Москву",
             "link": "https://www.vedomosti.ru/politics/news/2024/06/09/1042753-glava-gagauzii",
             "pub_date": "2024-06-09 14:57:24+03:00"
-        },
-        {
-            "title": "Песков: Германия пытается угодить США, НАТО и ЕС",
-            "link": "https://www.vedomosti.ru/politics/news/2024/06/09/1042742-peskov-germaniya",
-            "pub_date": "2024-06-09 12:34:07+03:00"
         }
     ],
     "Политика / Армия и спецслужбы": [
@@ -21,11 +45,6 @@
             "title": "Германия разрабатывает план по увеличению числа резервистов",
             "link": "https://www.vedomosti.ru/politics/news/2024/06/09/1042747-germaniya-razrabativaet",
             "pub_date": "2024-06-09 13:50:17+03:00"
-        },
-        {
-            "title": "СМИ сообщили о взрывах в Одесской области",
-            "link": "https://www.vedomosti.ru/politics/news/2024/06/09/1042727-smi-soobschili",
-            "pub_date": "2024-06-09 07:52:52+03:00"
         }
     ],
     "Бизнес": [
@@ -33,13 +52,6 @@
             "title": "«Вкусно – и точка» передумала выходить на рынок Абхазии",
             "link": "https://www.vedomosti.ru/business/news/2024/06/09/1042749-vkusno-i-tochka",
             "pub_date": "2024-06-09 14:44:13+03:00"
-        }
-    ],
-    "Политика / Власть": [
-        {
-            "title": "Песков: Запад переводит СМИ в подцензурное состояние",
-            "link": "https://www.vedomosti.ru/politics/news/2024/06/09/1042751-peskov-zapad",
-            "pub_date": "2024-06-09 14:30:58+03:00"
         }
     ],
     "Инвестиции": [
@@ -54,80 +66,6 @@
             "title": "В Газе сообщили о 274 погибших в ходе израильской операции в Нусейрате",
             "link": "https://www.vedomosti.ru/politics/news/2024/06/09/1042748-v-gaze",
             "pub_date": "2024-06-09 14:06:01+03:00"
-        },
-        {
-            "title": "МИД Молдавии осудил сограждан за граффити с гробами французских военных",
-            "link": "https://www.vedomosti.ru/politics/news/2024/06/09/1042741-mid-moldavii",
-            "pub_date": "2024-06-09 12:28:14+03:00"
-        },
-        {
-            "title": "Южная Корея возобновит вещание через громкоговорители на границе с КНДР",
-            "link": "https://www.vedomosti.ru/politics/news/2024/06/09/1042737-yuzhnaya-koreya",
-            "pub_date": "2024-06-09 11:31:54+03:00"
-        },
-        {
-            "title": "Два корабля загорелись после ракетного удара у берегов Йемена",
-            "link": "https://www.vedomosti.ru/politics/news/2024/06/09/1042726-dva-korablya",
-            "pub_date": "2024-06-09 07:30:43+03:00"
-        }
-    ],
-    "Общество": [
-        {
-            "title": "Рособрнадзор: удаленные за шпаргалки не смогут пересдать ЕГЭ в этом году",
-            "link": "https://www.vedomosti.ru/society/news/2024/06/09/1042746-rosobrnadzor-udalennie",
-            "pub_date": "2024-06-09 13:24:33+03:00"
-        },
-        {
-            "title": "Двое пограничников погибли от удара молнии на юге Азербайджана",
-            "link": "https://www.vedomosti.ru/society/news/2024/06/09/1042745-dvoe-pogranichnikov",
-            "pub_date": "2024-06-09 13:10:31+03:00"
-        },
-        {
-            "title": "ФАО: в ближайшие 5-10 лет ни одна страна не добьется углеродной нейтральности",
-            "link": "https://www.vedomosti.ru/society/news/2024/06/09/1042744-fao-v-blizhaishie",
-            "pub_date": "2024-06-09 13:06:34+03:00"
-        },
-        {
-            "title": "Музаев: контрольные работы в школах должны занимать не больше 10% времени",
-            "link": "https://www.vedomosti.ru/society/news/2024/06/09/1042736-muzaev-kontrolnie",
-            "pub_date": "2024-06-09 11:07:44+03:00"
-        },
-        {
-            "title": "ФСБР сообщила о смерти политика Валерия Сайкина",
-            "link": "https://www.vedomosti.ru/society/news/2024/06/09/1042735-fsbr-soobschila",
-            "pub_date": "2024-06-09 10:52:51+03:00"
-        },
-        {
-            "title": "Мединский захотел передать сотрудникам СБУ учебник по истории России",
-            "link": "https://www.vedomosti.ru/politics/news/2024/06/09/1042734-medinskii-zahotel",
-            "pub_date": "2024-06-09 10:36:56+03:00"
-        },
-        {
-            "title": "Мурашко сообщил о 80 000 больных COVID-19 в России",
-            "link": "https://www.vedomosti.ru/society/news/2024/06/09/1042732-murashko-soobschil",
-            "pub_date": "2024-06-09 09:38:05+03:00"
-        },
-        {
-            "title": "Полиция Чехии усилила меры безопасности из-за террористической угрозы",
-            "link": "https://www.vedomosti.ru/society/news/2024/06/09/1042730-politsiya-chehii-usilila",
-            "pub_date": "2024-06-09 09:22:22+03:00"
-        },
-        {
-            "title": "Рособрнадзор проверит 13 вузов, которые проводят экзамены для иностранцев",
-            "link": "https://www.vedomosti.ru/society/news/2024/06/09/1042729-rosobrnadzor-proverit",
-            "pub_date": "2024-06-09 08:50:17+03:00"
-        }
-    ],
-    "Политика": [
-        {
-            "title": "Захарова заявила о препятствиях от Запада перед ПМЭФом",
-            "link": "https://www.vedomosti.ru/politics/news/2024/06/09/1042739-zaharova-zavila",
-            "pub_date": "2024-06-09 11:49:01+03:00"
-        },
-        {
-            "title": "В Южной Осетии началось голосование на парламентских выборах",
-            "link": "https://www.vedomosti.ru/politics/news/2024/06/09/1042733-v-yuzhnoi-osetii",
-            "pub_date": "2024-06-09 09:58:24+03:00"
         }
     ]
 }
