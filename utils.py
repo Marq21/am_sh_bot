@@ -15,9 +15,10 @@ def format_date(date_string: str):
 
 
 async def __format_json_for_tg_message(data: dict) -> str:
+
     result = str()
-    for elem in data[:10]:
-        result += f'<a href="{elem['href']}">{elem['name']}</a>\n{elem['price']}\n{elem['description']}\n\n'
+    result += f'{data["Политика / Международные новости"]}\n'
+
     return result
 
 
@@ -26,3 +27,5 @@ async def validate_user_filter_href(href: str) -> bool:
         return False
     else:
         return validators.url(href)
+
+
