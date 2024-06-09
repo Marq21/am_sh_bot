@@ -4,6 +4,8 @@ import json
 import httpx
 from bs4 import BeautifulSoup
 
+from utils import format_date
+
 data = {}
 
 
@@ -17,7 +19,7 @@ async def main():
             category = item.find('category').text
             title = item.find('title').text
             link = item.find('link').text
-            pub_date = item.find('pubDate').text
+            pub_date = str(format_date(item.find('pubDate').text))
             article_data = {
                 'title': title,
                 'link': link,
@@ -31,12 +33,15 @@ async def main():
 
 
 def save_data(dict_data: dict):
-    with open("items.json", "w", encoding='utf-8') as f:
-        json.dump(dict_data, f, ensure_ascii=False, indent=4)
+    with open("items.json", "r", encoding='utf-8') as f:
+        json_dict = json.load(f)
+        print(json_dict)
+    # with open("items.json", "w", encoding='utf-8') as f:
+    #     json.dump(dict_data, f, ensure_ascii=False, indent=4)
 
 
-def parse():
-    main()
+async def parse():
+    await main()
 
 
 if __name__ == '__main__':
