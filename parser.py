@@ -28,18 +28,11 @@ def _parse_to_dict(items: ResultSet) -> dict:
     for item in items:
         pub_date = format_date(item.find('pubDate').text)
         compared_data = datetime.datetime.now(pytz.utc) - datetime.timedelta(hours=2)
-        start_of_day = (datetime
-                        .datetime
-                        .now(pytz.utc)
-                        .replace(hour=0,
-                                 minute=0,
-                                 second=0,
-                                 microsecond=0))
         if pub_date >= compared_data:
             category = item.find('category').text
             title = item.find('title').text
             link = item.find('link').text
-            pub_date = str(pub_date)
+            pub_date = str(pub_date.strftime('%d/%m/%Y %H:%M'))
             article_data = {
                 'title': title,
                 'link': link,

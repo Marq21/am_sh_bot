@@ -15,5 +15,6 @@ def format_date(date_string: str):
 def format_news_category(category_items: dict) -> str:
     result = str()
     for item in category_items:
-        result += f'{item["title"]}\nОпубликовано: {item["pub_date"]}\n<a href="{item["link"]}">Читать полностью</>\n\n'
+        result += (f'{item["title"]}\n\nОпубликовано: {item["pub_date"]}\n<a href="{item["link"]}">Читать '
+                   f'полностью</>\n\n')
     return result

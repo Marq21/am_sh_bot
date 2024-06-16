@@ -8,20 +8,25 @@ from aiogram.fsm.storage.memory import MemoryStorage
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 
 import config
-from handlers import router, check
+from handlers import router
+from middlewares.scheduler import SchedulerMiddleware
 from parser import parse
 
 
 async def main():
     scheduler = AsyncIOScheduler(timezone="Europe/Moscow")
-    scheduler.add_job(parse, 'interval', minutes=120)
-    scheduler.add_job(check, 'interval', minutes=120)
-    scheduler.start()
     bot = Bot(config.BOT_TOKEN, default=DefaultBotProperties(parse_mode=ParseMode.HTML))
     dp = Dispatcher(storage=MemoryStorage())
     dp.include_router(router)
-    await bot.delete_webhook(drop_pending_updates=True)
-    await dp.start_polling(bot, allowed_updates=dp.resolve_used_update_types())
+    dp.message.middleware(SchedulerMiddleware(scheduler))
+    scheduler.add_job(parse, 'interval', minutes=120)
+    try:
+        scheduler.start()
+        await bot.delete_webhook(drop_pending_updates=True)
+        await dp.start_polling(bot, allowed_updates=dp.resolve_used_update_types())
+    finally:
+        await dp.storage.close()
+        await bot.session.close()
 
 
 if __name__ == "__main__":
