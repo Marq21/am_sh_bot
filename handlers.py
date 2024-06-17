@@ -15,7 +15,7 @@ router = Router()
 
 @router.message(CommandStart())
 async def start_handler(msg: Message, scheduler: AsyncIOScheduler):
-    scheduler.add_job(check, 'interval', minutes=120, kwargs={'msg': msg})
+    scheduler.add_job(check, 'interval', minutes=122, kwargs={'msg': msg})
 
 
 @router.channel_post(Command('check'))
@@ -28,8 +28,6 @@ async def check(msg: Message):
 
 @router.message(Command('parse'))
 async def parse_data(msg: Message):
-    await msg.answer("Start parsing")
     start = time.time()
     await parse()
-    await msg.answer("Stop parsing")
-    logging.info()
+    logging.info(f"Done for {parse_data.__name__} {time.time() - start}ms")
