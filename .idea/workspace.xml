@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="381135fc-c76d-472c-842b-22372b6378f5" name="Changes" comment="added scheduler into middleware.&#10;added sending data to news-channel">
+    <list default="true" id="381135fc-c76d-472c-842b-22372b6378f5" name="Changes" comment="change time for scheduler's check function">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handlers.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/items.json" beforeDir="false" afterPath="$PROJECT_DIR$/items.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -437,7 +436,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718559004037</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="change time for scheduler's check function">
+      <option name="closed" value="true" />
+      <created>1718629607921</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1718629607921</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -464,6 +471,7 @@
     <MESSAGE value="minor format fix" />
     <MESSAGE value="added hob to scheduler to post messages in TG" />
     <MESSAGE value="added scheduler into middleware.&#10;added sending data to news-channel" />
-    <option name="LAST_COMMIT_MESSAGE" value="added scheduler into middleware.&#10;added sending data to news-channel" />
+    <MESSAGE value="change time for scheduler's check function" />
+    <option name="LAST_COMMIT_MESSAGE" value="change time for scheduler's check function" />
   </component>
 </project>
