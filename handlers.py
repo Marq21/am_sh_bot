@@ -33,7 +33,7 @@ async def check(msg: Message):
 async def check_ria(msg: Message):
     data = await handle_json("data/items_ria.json")
     for pub_date in sorted(data):
-        await msg.answer(f'💫Риа новости💫:\n\n{format_ria_news_messages(data[pub_date])}')
+        await msg.bot.send_message(NEWS_CHANNEL, f'💫Риа новости💫:\n\n{format_ria_news_messages(data[pub_date])}')
 
 
 @router.message(Command('parse_vedomosti'))
