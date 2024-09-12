@@ -19,10 +19,8 @@ def format_news_category(category_items: dict) -> str:
     """formatting vedomosti site"""
     result = str()
     for item in category_items:
-        title = item['title']
-        pub_date = item['pub_date']
-        link = item['link']
-        result += f'{title}\n\nОпубликовано: {pub_date}\n<a href="{link}">Читать полностью</>\n\n'
+        result += (f'{item['title']}\n\nОпубликовано: {item['pub_date']}\n<a href="{item['link']}">Читать '
+                   f'полностью</>\n\n')
     return result
 
 

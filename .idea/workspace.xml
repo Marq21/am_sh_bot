@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="381135fc-c76d-472c-842b-22372b6378f5" name="Changes" comment="added emoji thath randomly genereted by category.&#10;added new news-source and methods for it">
-      <change beforePath="$PROJECT_DIR$/handlers.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers.py" afterDir="false" />
+    <list default="true" id="381135fc-c76d-472c-842b-22372b6378f5" name="Changes" comment="change format method">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -461,13 +462,27 @@
       <option name="project" value="LOCAL" />
       <updated>1726133945941</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="change check_ria method(added right way to post messages bi TG-group)">
+      <option name="closed" value="true" />
+      <created>1726134126500</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1726134126500</updated>
+    </task>
+    <task id="LOCAL-00031" summary="change format method">
+      <option name="closed" value="true" />
+      <created>1726134926019</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1726134926019</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="TG bot test 2" />
-    <MESSAGE value="TG bot test 3" />
     <MESSAGE value="add main function" />
     <MESSAGE value="aiogram" />
     <MESSAGE value="added avito parser and formatting for json file" />
@@ -491,6 +506,8 @@
     <MESSAGE value="change time for scheduler's check function" />
     <MESSAGE value="update requirements.txt" />
     <MESSAGE value="added emoji thath randomly genereted by category.&#10;added new news-source and methods for it" />
-    <option name="LAST_COMMIT_MESSAGE" value="added emoji thath randomly genereted by category.&#10;added new news-source and methods for it" />
+    <MESSAGE value="change check_ria method(added right way to post messages bi TG-group)" />
+    <MESSAGE value="change format method" />
+    <option name="LAST_COMMIT_MESSAGE" value="change format method" />
   </component>
 </project>

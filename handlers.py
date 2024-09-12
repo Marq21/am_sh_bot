@@ -29,7 +29,7 @@ async def check(msg: Message):
                                    f'{emoji} <b>{category}</b>:\n\n{format_news_category(data[category])}')
 
 
-@router.message(Command('check_ria'))
+@router.channel_post(Command('check_ria'))
 async def check_ria(msg: Message):
     data = await handle_json("data/items_ria.json")
     for pub_date in sorted(data):
