@@ -19,15 +19,15 @@ def format_news_category(category_items: dict) -> str:
     """formatting vedomosti site"""
     result = str()
     for item in category_items:
-        result += (f'{item['title']}\n\nОпубликовано: {item['pub_date']}\n<a href="{item['link']}">Читать '
-                   f'полностью</>\n\n')
+        result += '{}\n\nОпубликовано: {}\n<a href="{}">Читать полностью</>\n\n'.format(item['title'],
+                                                                                        item['pub_date'], item['link'])
     return result
 
 
 def format_ria_news_messages(data: dict) -> str:
     """formatting ria-novosti site"""
-    result = (f'{data['title']}\n\nОпубликовано: {data['pub_date']}\n<a href="{data['link']}">Читать '
-              f'полностью</>\n\n')
+    result = '{}\n\nОпубликовано: {}\n<a href="{}">Читать полностью</>\n\n'.format(data['title'],
+                                                                                   data['pub_date'], data['link'])
     return result
 
 
