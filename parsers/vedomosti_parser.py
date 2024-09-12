@@ -19,7 +19,7 @@ async def main():
 
 
 def save_data(dict_data: dict):
-    with open("items.json", "w", encoding='utf-8') as f:
+    with open("data/items_vedomosti.json", "w", encoding='utf-8') as f:
         json.dump(dict_data, f, ensure_ascii=False, indent=4)
 
 

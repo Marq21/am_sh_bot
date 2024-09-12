@@ -10,7 +10,8 @@ from apscheduler.schedulers.asyncio import AsyncIOScheduler
 import config
 from handlers import router
 from middlewares.scheduler import SchedulerMiddleware
-from parser import parse
+from parsers.vedomosti_parser import parse as ved_parse
+from parsers.ria_parser import parse as ria_parse
 
 
 async def main():
@@ -19,7 +20,8 @@ async def main():
     dp = Dispatcher(storage=MemoryStorage())
     dp.include_router(router)
     dp.message.middleware(SchedulerMiddleware(scheduler))
-    scheduler.add_job(parse, 'interval', minutes=120)
+    scheduler.add_job(ved_parse, 'interval', minutes=120)
+    scheduler.add_job(ria_parse, 'interval', minutes=30)
     try:
         scheduler.start()
         await bot.delete_webhook(drop_pending_updates=True)
