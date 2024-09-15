@@ -17,7 +17,7 @@ router = Router()
 @router.message(CommandStart())
 async def start_handler(msg: Message, scheduler: AsyncIOScheduler):
     scheduler.add_job(check, 'interval', minutes=122, kwargs={'msg': msg})
-    scheduler.add_job(check_ria, 'interval', minutes=31, kwargs={'msg': msg})
+    scheduler.add_job(check_ria, 'interval', minutes=65, kwargs={'msg': msg})
 
 
 @router.channel_post(Command('check'))
