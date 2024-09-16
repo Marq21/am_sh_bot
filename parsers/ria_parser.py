@@ -27,7 +27,7 @@ def _parse_to_dict(items: ResultSet) -> dict:
     data = {}
     for item in items:
         pub_date = format_date(item.find('pubDate').text)
-        compared_data = datetime.datetime.now(pytz.utc) - datetime.timedelta(minutes=30)
+        compared_data = datetime.datetime.now(pytz.utc) - datetime.timedelta(minutes=60)
         if pub_date >= compared_data:
             title = item.find('title').text
             link = item.find('link').text
