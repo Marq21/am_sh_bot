@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="381135fc-c76d-472c-842b-22372b6378f5" name="Changes" comment="change dict's element">
+    <list default="true" id="381135fc-c76d-472c-842b-22372b6378f5" name="Changes" comment="Change time difference in private method nt ria_parser.py">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/items_ria.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/items_ria.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handlers.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -503,13 +502,27 @@
       <option name="project" value="LOCAL" />
       <updated>1726155264279</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Change scheduler timer +35 minutes">
+      <option name="closed" value="true" />
+      <created>1726432517328</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1726432517328</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Change time difference in private method nt ria_parser.py">
+      <option name="closed" value="true" />
+      <created>1726468040637</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1726468040637</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="aiogram" />
-    <MESSAGE value="added avito parser and formatting for json file" />
     <MESSAGE value="some code refactoring and change text formatting" />
     <MESSAGE value="add token by command line" />
     <MESSAGE value="delete category parser" />
@@ -533,6 +546,8 @@
     <MESSAGE value="change check_ria method(added right way to post messages bi TG-group)" />
     <MESSAGE value="change format method" />
     <MESSAGE value="change dict's element" />
-    <option name="LAST_COMMIT_MESSAGE" value="change dict's element" />
+    <MESSAGE value="Change scheduler timer +35 minutes" />
+    <MESSAGE value="Change time difference in private method nt ria_parser.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change time difference in private method nt ria_parser.py" />
   </component>
 </project>
